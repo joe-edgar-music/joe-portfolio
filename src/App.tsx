@@ -1,5 +1,6 @@
 import Header from "./components/Header"
 import keyboardImage from "./assets/keyboard.webp";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           md:aspect-16/10
         "
       />
+      <Footer />
     </>
   )
 }
