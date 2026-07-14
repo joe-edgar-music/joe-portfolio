@@ -2,6 +2,7 @@ import ProjectCard from "./ProjectCard";
 import joe1 from "../assets/joe1.jpg";
 import joe2 from "../assets/joe2.jpg"
 import joe3 from "../assets/joe3.jpg"
+import ProjectCardAlt from "./ProjectCardAlt";
 
 export default function ProjectList() {
   const projects = [
