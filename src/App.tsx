@@ -3,6 +3,7 @@ import keyboardImage from "./assets/keyboard.webp";
 import Footer from "./components/Footer";
 import ProjectList from "./components/ProjectList";
 import About from "./components/About";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <div className="flex flex-col gap-4 py-4">
         <About />
         <ProjectList />
+        <Contact />
       </div>
       <Footer />
     </>

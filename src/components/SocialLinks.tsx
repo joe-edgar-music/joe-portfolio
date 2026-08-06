@@ -7,7 +7,7 @@ export default function SocialLinks() {
     ]
 
     return (
-        <div className="flex space-x-2 items-center">
+        <div className="flex space-x-2 items-center justify-center">
             {links.map((link) => (
                 <a
                     key={link.url}
