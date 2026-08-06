@@ -13,10 +13,10 @@ export default function ProjectList() {
 
   return (
     <section className="flex flex-col gap-4 py-4">
-      <h2 className="text-2xl tracking-wider">RECENT PROJECTS</h2>
+      <h2 className="text-2xl tracking-wider">PORTFOLIO</h2>
       <div className="columns-3 gap-4">
         {projects.map((project, index) => (
-          <ProjectCard key={index} project={project} />
+          <ProjectCardAlt key={index} project={project} />
         ))}
       </div>
     </section>

@@ -1,6 +1,15 @@
 export default function ProjectCardAlt({ project }: { project: any }) {
   return (
-    <div className="relative group overflow-hidden aspect-4/3 bg-zinc-800">
+    <div 
+      className="
+        relative 
+        group 
+        overflow-hidden 
+        aspect-4/3 
+        bg-zinc-800
+        hover:cursor-pointer
+      "
+    >
       <img
         src={project.image}
         alt={project.title}
