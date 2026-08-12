@@ -1,15 +1,15 @@
 import ProjectCard from "./ProjectCard";
-import joe1 from "../assets/joe1.jpg";
-import joe2 from "../assets/joe2.jpg"
-import joe3 from "../assets/joe3.jpg"
 import ProjectCardAlt from "./ProjectCardAlt";
+import { useEffect, useState } from "react";
+import { getProjects } from "../lib/getProjects";
 
 export default function ProjectList() {
-  const projects = [
-    { title: "Guitar playin'", image: joe1 },
-    { title: "Loungin'", image: joe2 },
-    { title: "Folkin'", image: joe3 }
-  ];
+  const [projects, setProjects] = useState<any[]>([]);
+  
+
+  useEffect(() => {
+    getProjects().then(setProjects);
+  }, []);
 
   return (
     <section className="flex flex-col gap-4 py-4">

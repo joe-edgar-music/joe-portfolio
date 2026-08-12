@@ -11,7 +11,7 @@ export default function ProjectCardAlt({ project }: { project: any }) {
       "
     >
       <img
-        src={project.image}
+        src={project.image_url}
         alt={project.title}
         className="
           object-cover
