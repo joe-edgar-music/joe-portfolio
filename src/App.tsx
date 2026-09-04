@@ -1,32 +1,20 @@
-import Header from "./components/Header"
-import keyboardImage from "./assets/keyboard.webp";
-import Footer from "./components/Footer";
-import ProjectList from "./components/ProjectList";
-import About from "./components/About";
-import Contact from "./components/Contact";
+import { BrowserRouter as Router, Route, Routes } from 'react-router'
+
+import Header from './components/Header'
+import Home from './pages/Home'
+import Project from './pages/Project'
 
 function App() {
   return (
     <>
-      <Header />
-      <img 
-        src={keyboardImage} 
-        alt="Playing the keyboard"
-        className="
-          w-full
-          h-full
-          object-cover
-          object-top-left
-          aspect-3/4
-          md:aspect-16/10
-        "
-      />
-      <div className="flex flex-col gap-4 py-4">
-        <About />
-        <ProjectList />
-        <Contact />
-      </div>
-      <Footer />
+    <Header />
+    <Router>  
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/portfolio/:slug" element={<Project />} />
+        <Route path="*" element={<p>Page not found</p>} />
+      </Routes>
+    </Router>
     </>
   )
 }

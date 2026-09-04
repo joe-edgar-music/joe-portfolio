@@ -1,19 +1,24 @@
+import { Link } from "react-router";
+
 export default function ProjectCardAlt({ project }: { project: any }) {
   return (
-    <div 
+    <Link
+      to={`/portfolio/${project.slug}`}
       className="
-        relative 
-        group 
-        overflow-hidden 
-        aspect-4/3 
+        relative
+        group
+        overflow-hidden
+        aspect-4/3
         bg-zinc-800
-        hover:cursor-pointer
+        block
       "
     >
       <img
         src={project.image_url}
         alt={project.title}
         className="
+          w-full
+          h-full
           object-cover
           transition-all
           duration-300
@@ -40,6 +45,6 @@ export default function ProjectCardAlt({ project }: { project: any }) {
           {project.title}
         </h3>
       </div>
-    </div>
+    </Link>
   );
 }
