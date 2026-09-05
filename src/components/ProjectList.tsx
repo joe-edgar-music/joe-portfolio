@@ -1,4 +1,3 @@
-import ProjectCard from "./ProjectCard";
 import ProjectCardAlt from "./ProjectCardAlt";
 import { useEffect, useState } from "react";
 import { getProjects } from "../lib/getProjects";
