@@ -19,7 +19,7 @@ export default function Home() {
         md:aspect-16/10
       "
     />
-    <div className="flex flex-col gap-4 py-4">
+    <div className="flex flex-col gap-4 py-4 px-4 md:px-0">
       <About />
       <ProjectList />
       <Contact />

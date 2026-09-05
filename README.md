@@ -24,7 +24,8 @@ git push
 
 ## Development Instructions
 
->! These can be ignored unless you want to run the website locally.
+> [!NOTE]
+> These can be ignored unless you want to run the website locally.
 
 ### Tech Stack
 

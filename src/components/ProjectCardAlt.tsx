@@ -41,9 +41,16 @@ export default function ProjectCardAlt({ project }: { project: any }) {
           duration-300
         "
       >
-        <h3 className="text-white text-2xl font-bold">
-          {project.title}
-        </h3>
+        <div className="flex flex-col">
+          <h3 className="text-white text-2xl font-bold">
+            {project.title}
+          </h3>
+          {project.description && (
+            <p>
+              {project.description}
+            </p>
+          )}
+        </div>
       </div>
     </Link>
   );

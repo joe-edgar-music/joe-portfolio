@@ -14,7 +14,7 @@ export default function ProjectList() {
   return (
     <section className="flex flex-col gap-4 py-4">
       <h2 className="text-2xl tracking-wider">PORTFOLIO</h2>
-      <div className="columns-3 gap-4">
+      <div className="gap-4 md:columns-1 lg:columns-3">
         {projects.map((project, index) => (
           <ProjectCardAlt key={index} project={project} />
         ))}
