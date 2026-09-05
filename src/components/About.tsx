@@ -10,7 +10,7 @@ export default function About() {
         Conducting Scholarship in my 2nd year. I have a creative and collaborative approach to
         composition, involving performers wherever possible, and experimenting with technology to create
         unique soundscapes for my music. I am a skilled technologist, with experience in all levels of music-
-        making from recording through to production and implementation in games.
+        making from recording through to production and implementation in games. hello world
       </p>
     </section>
   );
