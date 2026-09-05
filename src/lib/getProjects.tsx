@@ -1,6 +1,22 @@
 import fm from 'front-matter';
 import type { Project } from '../types/project';
 
+function resolveAssetUrl(url: string | undefined): string {
+  if (!url) {
+    return '';
+  }
+
+  if (/^https?:\/\//.test(url) || url.startsWith('//')) {
+    return url;
+  }
+
+  const base = import.meta.env.BASE_URL;
+  const normalizedBase = base.endsWith('/') ? base : `${base}/`;
+  const normalizedPath = url.startsWith('/') ? url.slice(1) : url;
+
+  return `${normalizedBase}${normalizedPath}`;
+}
+
 export async function getProjects(): Promise<Project[]> {
   const modules = import.meta.glob('/src/content/projects/*.md', {
     query: '?raw', 
@@ -13,6 +29,7 @@ export async function getProjects(): Promise<Project[]> {
     return {
       slug: path.split('/').pop()?.replace('.md', ''),
       ...attributes,
+      image_url: resolveAssetUrl(attributes.image_url),
       content,
     } as Project;
   });
