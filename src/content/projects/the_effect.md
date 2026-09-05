@@ -2,6 +2,7 @@
 title: The Effect
 description: Soundtrack
 image_url: /assets/images/the_effect/cover_photo.jpg
+featured: true
 ---
 
 ## About The Effect

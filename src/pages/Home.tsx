@@ -21,7 +21,7 @@ export default function Home() {
     />
     <div className="flex flex-col gap-4 py-4 px-4 md:px-0">
       <About />
-      <ProjectList />
+      <ProjectList featured={true} />
       <Contact />
     </div>
     <Footer />
