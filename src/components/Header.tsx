@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 export default function Header() {
   const links = {
     HOME: "/",
@@ -14,7 +16,7 @@ export default function Header() {
         <ul className="flex flex-row justify-content space-x-4">
           {Object.entries(links).map(([name, path]) => (
             <li key={path}>
-              <a href={path}>{name}</a>
+              <Link to={path}>{name}</Link>
             </li>
           ))}
         </ul>
