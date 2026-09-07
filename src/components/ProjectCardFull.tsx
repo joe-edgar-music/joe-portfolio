@@ -14,6 +14,7 @@ export default function ProjectCardFull({ project, reverse }: { project: any; re
         border-transparent
         hover:border-zinc-800
         transition-colors
+        group
       `}>
       <img
           src={project.image_url}
@@ -23,9 +24,9 @@ export default function ProjectCardFull({ project, reverse }: { project: any; re
           "
       />
       <div>
-        <h3 className="text-left text-xl tracking-wide">{project.title}</h3>
+        <h3 className="text-left text-xl tracking-wide group-hover:underline">{project.title}</h3>
         <p className="text-left">{project.description}</p>
-        <p className="text-left">
+        <p className="text-left italic">
           {project.content?.slice(0, 400)}
           {project.content?.length > 400 && "..."}
         </p>

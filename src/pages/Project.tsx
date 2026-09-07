@@ -43,6 +43,25 @@ export default function Project() {
         "
       />
 
+      {project.spotify_embed_url && (
+        <div className="rounded-[16px] overflow-hidden w-3/4">
+          <iframe 
+            className="rounded-[12px] overflow-hidden"
+            src={project.spotify_embed_url} 
+            width="100%" 
+            height="352" 
+            frameBorder="0" 
+            allow="autoplay; 
+            clipboard-write; 
+            encrypted-media; 
+            fullscreen; 
+            picture-in-picture" 
+            loading="lazy">
+          </iframe>
+        </div>
+      )}
+
+
       <div className="prose">
         <ReactMarkdown>
           {project.content}
