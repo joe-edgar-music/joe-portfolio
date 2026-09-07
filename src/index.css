@@ -68,7 +68,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: 'Cardo', var(--heading);
   font-weight: 500;
   color: var(--text-h);
