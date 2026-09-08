@@ -22,7 +22,7 @@ export default function Project() {
   }
 
   return (
-    <main className="flex flex-col gap-4 py-4 px-4 align-center items-center">
+    <div className="flex flex-col gap-4 py-4 px-4 align-center items-center">
       <div>
         <h1 className="text-4xl font-bold">
           {project.title}
@@ -67,6 +67,6 @@ export default function Project() {
           {project.content}
         </ReactMarkdown>
       </div>
-    </main>
+    </div>
   );
 }

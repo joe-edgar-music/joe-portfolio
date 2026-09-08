@@ -7,15 +7,17 @@ export default function Header() {
   const links = {
     HOME: "/",
     ABOUT: "/about",
-    NEWS: "/news",
     PORTFOLIO: "/portfolio",
+    LISTEN: "/listen",
     CONTACT: "/contact",
   };
 
   return (
     <header className="flex flex-col w-full">
       <div className="flex flex-row w-full items-center justify-between px-4 py-3">
-        <h1 className="text-3xl tracking-widest">JOE EDGAR</h1>
+        <Link to="/">
+          <h1 className="text-3xl tracking-widest">JOE EDGAR</h1>
+        </Link>
         <nav className="hidden md:block">
           <ul className="flex flex-row justify-content space-x-4">
             {Object.entries(links).map(([name, path]) => (

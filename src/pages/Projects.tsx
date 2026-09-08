@@ -6,7 +6,9 @@ export default function Projects() {
   const [projects, setProjects] = useState<any[]>([]);
   
   useEffect(() => {
-    getProjects().then(setProjects);
+    getProjects().then((projects) => {
+      setProjects(projects.sort((a, b) => b.order - a.order));
+    });
   }, []);
 
   return (
