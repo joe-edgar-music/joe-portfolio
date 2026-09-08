@@ -6,11 +6,13 @@ import Project from './pages/Project'
 import Projects from './pages/Projects'
 import Listen from './pages/Listen'
 import Footer from './components/Footer'
+import ScrollToHash from './components/ScrollToHash'
 
 function App() {
   return (
     <>
     <Router>  
+      <ScrollToHash />
       <div className="flex min-h-screen flex-col">
         <Header />
         

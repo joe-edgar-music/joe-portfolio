@@ -6,14 +6,14 @@ export default function Header() {
 
   const links = {
     HOME: "/",
-    ABOUT: "/about",
+    ABOUT: "/#about",
     PORTFOLIO: "/portfolio",
     LISTEN: "/listen",
-    CONTACT: "/contact",
+    CONTACT: "/#contact",
   };
 
   return (
-    <header className="flex flex-col w-full">
+    <header className="flex flex-col w-full sticky top-0 z-50 bg-[var(--bg)]">
       <div className="flex flex-row w-full items-center justify-between px-4 py-3">
         <Link to="/">
           <h1 className="text-3xl tracking-widest">JOE EDGAR</h1>
