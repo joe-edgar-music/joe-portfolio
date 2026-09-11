@@ -4,6 +4,7 @@ description: Soundtrack
 image_url: /assets/images/the_effect/cover_photo.jpg
 featured: true
 order: 3
+date: 2025
 ---
 
 ## About The Effect

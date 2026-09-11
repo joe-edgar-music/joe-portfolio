@@ -4,5 +4,6 @@ export interface Project {
   description: string;
   image_url: string;
   content: string;
+  date: string;
   [key: string]: any;
 }

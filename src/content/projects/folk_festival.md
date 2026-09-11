@@ -3,6 +3,7 @@ title: Sheffield University Folk Festival
 image_url: /assets/images/folk_festival/cover_photo.jpg
 featured: true
 order: 1
+date: 2025
 ---
 
 On 3rd May 2025, the newly-formed Sheffield University Folk Music Society held its first ever festival at Crookes Social Club. We showcased music arranged and performed by the society and bands made up of its members, as well as a performance from the fantastic newcastle-based trio Rillen. The day concluded with a ceilidh from our counterparts in the ceilidh society.  
