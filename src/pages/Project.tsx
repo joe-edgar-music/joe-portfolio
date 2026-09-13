@@ -22,7 +22,7 @@ export default function Project() {
   }
 
   return (
-    <main className="flex flex-col gap-4 py-4 px-4 align-center items-center">
+    <div className="flex flex-col gap-4 py-4 px-4 align-center items-center">
       <div>
         <h1 className="text-4xl font-bold">
           {project.title}
@@ -43,11 +43,30 @@ export default function Project() {
         "
       />
 
+      {project.spotify_embed_url && (
+        <div className="rounded-[16px] overflow-hidden w-3/4">
+          <iframe 
+            className="rounded-[12px] overflow-hidden"
+            src={project.spotify_embed_url} 
+            width="100%" 
+            height="352" 
+            frameBorder="0" 
+            allow="autoplay; 
+            clipboard-write; 
+            encrypted-media; 
+            fullscreen; 
+            picture-in-picture" 
+            loading="lazy">
+          </iframe>
+        </div>
+      )}
+
+
       <div className="prose">
         <ReactMarkdown>
           {project.content}
         </ReactMarkdown>
       </div>
-    </main>
+    </div>
   );
 }

@@ -6,21 +6,23 @@ export default function Header() {
 
   const links = {
     HOME: "/",
-    ABOUT: "/about",
-    NEWS: "/news",
+    ABOUT: "/#about",
     PORTFOLIO: "/portfolio",
-    CONTACT: "/contact",
+    LISTEN: "/listen",
+    CONTACT: "/#contact",
   };
 
   return (
-    <header className="flex flex-col w-full">
+    <header className="flex flex-col w-full sticky top-0 z-50 bg-[var(--bg)]">
       <div className="flex flex-row w-full items-center justify-between px-4 py-3">
-        <h1 className="text-3xl tracking-widest">JOE EDGAR</h1>
+        <Link to="/">
+          <h1 className="text-3xl tracking-widest">JOE EDGAR</h1>
+        </Link>
         <nav className="hidden md:block">
           <ul className="flex flex-row justify-content space-x-4">
             {Object.entries(links).map(([name, path]) => (
               <li key={path}>
-                <Link to={path}>{name}</Link>
+                <Link to={path} className="hover:text-[var(--text-h)]">{name}</Link>
               </li>
             ))}
           </ul>

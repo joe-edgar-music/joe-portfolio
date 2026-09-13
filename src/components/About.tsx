@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section className="flex flex-col gap-4 py-4">
+    <section className="flex flex-col gap-4 py-4" id="about">
       <h2 className="text-2xl tracking-wider">ABOUT ME</h2>
       <p className="text-lg">
         I am a composer, producer, and music technologist based in Sheffield with a lifelong obsession with

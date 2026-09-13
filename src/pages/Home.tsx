@@ -1,5 +1,4 @@
 import keyboardImage from "../assets/keyboard.webp";
-import Footer from "../components/Footer";
 import ProjectList from "../components/ProjectList";
 import About from "../components/About";
 import Contact from "../components/Contact";
@@ -24,7 +23,6 @@ export default function Home() {
       <ProjectList featured={true} />
       <Contact />
     </div>
-    <Footer />
     </>
   )
 }

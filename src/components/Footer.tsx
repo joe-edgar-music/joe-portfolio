@@ -2,7 +2,7 @@ import SocialLinks from "./SocialLinks";
 
 export default function Footer() {
     return (
-        <footer className="py-6 px-4 md:px-0 text-center">
+        <footer className="py-6 px-4 lg:px-0 text-center">
             <div className="flex justify-between items-center">
                 <p>&copy; 2026 Joe Edgar</p>
                 <SocialLinks />

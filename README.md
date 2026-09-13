@@ -39,3 +39,13 @@ git push
 npm install
 npm run dev
 ```
+
+### Updating Local Branches
+
+To update your local branch with the changes in the Github main branch
+
+```bash
+git checkout joe-branch
+git fetch origin
+git merge origin/main
+```
