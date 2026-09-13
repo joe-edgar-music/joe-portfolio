@@ -1,6 +1,6 @@
 ---
 title: The Effect
-description: Soundtrack
+description: Play Soundtrack
 image_url: /assets/images/the_effect/cover_photo.jpg
 featured: true
 order: 3
