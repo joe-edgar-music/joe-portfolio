@@ -42,11 +42,11 @@ export default function ProjectCardAlt({ project }: { project: any }) {
         "
       >
         <div className="flex flex-col">
-          <h3 className="text-white text-2xl font-bold">
+          <h3 className="text-white text-2xl font-bold" style={{color: "#CA9773"}}>
             {project.title}
           </h3>
           {project.description && (
-            <p>
+            <p style={{color: "#FAFAFA"}} className="mt-2 text-center">
               {project.description}
             </p>
           )}

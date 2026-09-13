@@ -1,6 +1,7 @@
 ---
 title: The Effect
 description: Play Soundtrack
+long_description: Soundtrack for The Effect by Lucy Prebble, as performed by Sheffield University Theatre Company, directed by Emilia Lodge.
 image_url: /assets/images/the_effect/cover_photo.jpg
 featured: true
 order: 3
