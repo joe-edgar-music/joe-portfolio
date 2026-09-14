@@ -4,7 +4,7 @@
   --text: #6b6375;
   --text-h: #08060d;
   --bg: #fff;
-  --border: #e5e4e7;
+  --border: hsl(260, 6%, 80%);
   --code-bg: #f4f3ec;
   --accent: #aa3bff;
   --accent-bg: rgba(170, 59, 255, 0.1);
@@ -36,8 +36,8 @@
   :root {
     --text: #9ca3af;
     --text-h: #f3f4f6;
-    --bg: oklch(21% 0.006 285.885);
-    --border: #2e303a;
+    --bg: hsl(240, 6%, 10%);
+    --border: hsl(240, 6%, 30%);
     --code-bg: #1f2028;
     --accent: #c084fc;
     --accent-bg: rgba(192, 132, 252, 0.15);

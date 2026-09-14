@@ -12,7 +12,7 @@ export default function ProjectCardFull({ project, reverse }: { project: any; re
         ${reverse ? "md:flex-row-reverse justify-between" : "md:flex-row"}
         border-2
         border-transparent
-        hover:border-zinc-800
+        hover:border-[var(--border)]
         transition-colors
         group
       `}>
