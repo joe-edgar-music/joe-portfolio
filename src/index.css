@@ -16,12 +16,12 @@
   --shadow:
     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
 
-  --sans: "Roboto Serif", system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: "Philosopher", system-ui, 'Segoe UI', Roboto, sans-serif;
+  --sans: 'Verdana', system-ui, 'Segoe UI', Roboto, sans-serif;
+  --heading: "Roboto Serif", "Georgia", system-ui, 'Segoe UI', Roboto, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
 
   font: 18px/145% var(--sans);
-  letter-spacing: 0.8px;
+  letter-spacing: 1px;
   color-scheme: light dark;
   color: var(--text);
   background: var(--bg);

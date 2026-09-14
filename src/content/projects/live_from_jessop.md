@@ -1,6 +1,6 @@
 ---
 title: Live From Jessop
-description: University of Sheffield Folk Society
+description: Album - University of Sheffield Folk Society
 long_description: This is a long description and should replace the "some content".
 image_url: /assets/images/live_from_jessop/cover_photo.jpg
 featured: true
