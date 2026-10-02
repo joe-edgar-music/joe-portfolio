@@ -43,11 +43,11 @@ export default function Project() {
         "
       />
 
-      {project.spotify_embed_url && (
+      {project.embed_url && (
         <div className="rounded-[16px] overflow-hidden w-3/4">
           <iframe 
             className="rounded-[12px] overflow-hidden"
-            src={project.spotify_embed_url} 
+            src={project.embed_url} 
             width="100%" 
             height="352" 
             frameBorder="0" 
