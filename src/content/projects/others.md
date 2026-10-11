@@ -13,7 +13,7 @@ Some other projects which I've been part of...
 Sound Designer for Sheffield University Theatre Company's Edinburgh Fringe show, *Peace Circle*, by Lucy Singer.
 
 ## Medea (2023)
-Composer & Sound Designer for Sheffield University Theatre Compnay's production of *Medea*, which featured a modular system of layering drones to underscore the action, triggered manually to time perfectly with performances.
+Composer & Sound Designer for Sheffield University Theatre Company's production of *Medea*, which featured a modular system of layering drones to underscore the action, triggered manually to time perfectly with performances.
 
 ## Shakespeare in Love (2023)
 Composer & Sound Designer for Centrestage School of Speech and Drama's production of *Shakespeare In Love*, which I also performed in (pictured).
